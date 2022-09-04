@@ -4,7 +4,7 @@ pipeline {
 	
 	stage('Non-Parallel Stage') {
 	    agent {
-                        label "Built-In Node"
+                        label "Built-In"
                 }
         steps {
                 echo 'This stage will be executed first'
